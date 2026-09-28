@@ -1,20 +1,10 @@
 import './Home.css'
+import Navbar from '../components/Navbar'
 
 function Home() {
     return (
         <main className="site">
-            <nav className="navbar">
-        <h2 id="title">lori and mark's homepage</h2>
-        <p id="welcome">welcome to our little corner of the internet</p>
-
-        <div className="nav-links">
-          <a href="#">home</a>
-          <a href="#">memories</a>
-          <a href="#">letters</a>
-          <a href="#">acads</a>
-          <a href="#">about</a>
-        </div>
-      </nav>
+          <Navbar />
 
       <section className="section" id="latest-date">
         <h2 id="date-title">our latest date</h2>

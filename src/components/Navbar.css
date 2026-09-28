@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  background-color: #a376a2;
+  border: 5px solid #8d5f8c;
+}
+
+#title {
+  font-size: 32px;
+  font-family: "Patrick Hand", serif;
+}
+
+#welcome {
+  margin: 0;
+  color: #6b3f69;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: underline;
+}
